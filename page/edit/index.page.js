@@ -1,8 +1,4 @@
-import {
-  createKeyboard,
-  deleteKeyboard,
-  inputType
-} from '@zos/ui'
+import { createKeyboard, deleteKeyboard, inputType } from '@zos/ui'
 import * as hmUI from '@zos/ui'
 import { getText } from '@zos/i18n'
 import { log as Logger, px } from '@zos/utils'
@@ -201,10 +197,7 @@ Page({
       onComplete: (_kb, result) => {
         const value = ((result && result.data) || '').trim()
         this.state.reminder.title = value
-        this.state.titleBtn.setProperty(
-          hmUI.prop.TEXT,
-          value || getText('tapToEdit')
-        )
+        this.state.titleBtn.setProperty(hmUI.prop.TEXT, value || getText('tapToEdit'))
         deleteKeyboard()
       },
       onCancel: () => {
@@ -219,10 +212,7 @@ Page({
       onComplete: (_kb, result) => {
         const value = ((result && result.data) || '').trim()
         this.state.reminder.text = value
-        this.state.textBtn.setProperty(
-          hmUI.prop.TEXT,
-          value || getText('tapToEdit')
-        )
+        this.state.textBtn.setProperty(hmUI.prop.TEXT, value || getText('tapToEdit'))
         deleteKeyboard()
       },
       onCancel: () => {

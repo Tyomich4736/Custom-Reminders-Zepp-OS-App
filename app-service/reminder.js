@@ -20,14 +20,8 @@ AppService({
     const stored = query.id ? getReminderById(query.id) : null
 
     const reminder = {
-      title:
-        (stored && stored.title) ||
-        decodeParamValue(query.title) ||
-        '',
-      text:
-        (stored && stored.text) ||
-        decodeParamValue(query.text) ||
-        ''
+      title: (stored && stored.title) || decodeParamValue(query.title) || '',
+      text: (stored && stored.text) || decodeParamValue(query.text) || ''
     }
 
     // Migrate older reminders that only had description text

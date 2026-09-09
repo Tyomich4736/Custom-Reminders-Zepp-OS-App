@@ -1,12 +1,4 @@
-import {
-  WEEK_FRI,
-  WEEK_MON,
-  WEEK_SAT,
-  WEEK_SUN,
-  WEEK_THU,
-  WEEK_TUE,
-  WEEK_WED
-} from '@zos/alarm'
+import { WEEK_FRI, WEEK_MON, WEEK_SAT, WEEK_SUN, WEEK_THU, WEEK_TUE, WEEK_WED } from '@zos/alarm'
 
 export const REMINDERS_FILE_NAME = 'custom_reminders.txt'
 

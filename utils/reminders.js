@@ -63,11 +63,7 @@ export function formatWeekDays(weekDays) {
   if (labels.length === 7) {
     return 'Every day'
   }
-  if (
-    labels.length === 5 &&
-    !labels.includes('Sat') &&
-    !labels.includes('Sun')
-  ) {
+  if (labels.length === 5 && !labels.includes('Sat') && !labels.includes('Sun')) {
     return 'Weekdays'
   }
   return labels.join(' ')

@@ -16,16 +16,7 @@ import { log as Logger } from '@zos/utils'
 const logger = Logger.getLogger('reminders-alarm')
 
 /** Map Time.getDay() 1=Mon … 7=Sun → WEEK_* bit */
-const DAY_TO_BIT = [
-  0,
-  WEEK_MON,
-  WEEK_TUE,
-  WEEK_WED,
-  WEEK_THU,
-  WEEK_FRI,
-  WEEK_SAT,
-  WEEK_SUN
-]
+const DAY_TO_BIT = [0, WEEK_MON, WEEK_TUE, WEEK_WED, WEEK_THU, WEEK_FRI, WEEK_SAT, WEEK_SUN]
 
 function encodeParamValue(value) {
   return String(value == null ? '' : value)
@@ -44,8 +35,7 @@ export function nextOccurrenceUtcSeconds(hour, minute, weekDays) {
   const t = new Time()
   const nowSec = Math.floor(t.getTime() / 1000)
   const currentDay = t.getDay()
-  const localSecOfDay =
-    t.getHours() * 3600 + t.getMinutes() * 60 + t.getSeconds()
+  const localSecOfDay = t.getHours() * 3600 + t.getMinutes() * 60 + t.getSeconds()
   const targetSecOfDay = hour * 3600 + minute * 60
 
   for (let offset = 0; offset < 8; offset++) {
@@ -87,11 +77,7 @@ export function scheduleReminderAlarm(reminder) {
     }
   }
 
-  const time = nextOccurrenceUtcSeconds(
-    reminder.hour,
-    reminder.minute,
-    reminder.weekDays
-  )
+  const time = nextOccurrenceUtcSeconds(reminder.hour, reminder.minute, reminder.weekDays)
 
   logger.log(
     `schedule id=${reminder.id} local=${reminder.hour}:${reminder.minute} weekDays=${reminder.weekDays} utc=${time}`

@@ -1,10 +1,12 @@
 # Contributing to Custom Reminders
 
-Thank you for your interest in contributing! This guide explains how to propose changes, report issues, and get your work merged.
+Thank you for your interest in contributing! This guide explains how to
+propose changes, report issues, and get your work merged.
 
 ## Code of Conduct
 
-By participating, you agree to uphold our [Code of Conduct](CODE_OF_CONDUCT.md). Please read it before contributing.
+By participating, you agree to uphold our [Code of Conduct](CODE_OF_CONDUCT.md).
+Please read it before contributing.
 
 ## How to Contribute
 
@@ -22,13 +24,14 @@ Before opening a new issue:
 ### Suggesting Features
 
 Use the **Feature request** template. Clearly describe:
+
 - The problem you're trying to solve
 - Your proposed solution
 - Any alternatives you've considered
 
 ### Pull Requests
 
-1. Fork the repo and create a feature branch from `main`.
+1. Fork the repo and create a feature branch from \`main\`.
 2. Keep PRs focused and reasonably sized.
 3. Match existing code style (Prettier is configured).
 4. Update docs (README, inline comments) when behavior changes.
@@ -36,23 +39,27 @@ Use the **Feature request** template. Clearly describe:
 
 ### Development Workflow
 
-```bash
+\`\`\`bash
+
 # Install deps
+
 npm install
 
 # Preview in simulator
+
 zeus dev
 
 # Build distributable
+
 zeus build
-```
+\`\`\`
 
 ## Style Guidelines
 
-- Use the existing Prettier config (`.prettierrc.js`).
+- Use the existing Prettier config (\`.prettierrc.js\`).
 - Prefer small, well-named functions.
-- Keep UI strings in `page/i18n/en-US.po` (or add new `.po` files for locales).
-- Avoid device-specific assumptions; use values from `app.json` targets.
+- Keep UI strings in \`page/i18n/en-US.po\` (or add new \`.po\` files for locales).
+- Avoid device-specific assumptions; use values from \`app.json\` targets.
 
 ## Questions?
 

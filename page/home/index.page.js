@@ -3,12 +3,7 @@ import { getText } from '@zos/i18n'
 import { log as Logger } from '@zos/utils'
 import { push } from '@zos/router'
 
-import {
-  ADD_BUTTON,
-  SCROLL_LIST,
-  TIPS_TEXT_STYLE,
-  TITLE_TEXT_STYLE
-} from './index.page.r.layout'
+import { ADD_BUTTON, SCROLL_LIST, TIPS_TEXT_STYLE, TITLE_TEXT_STYLE } from './index.page.r.layout'
 import { getScrollListDataConfig } from './../../utils/index'
 import {
   deleteReminder,

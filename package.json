@@ -30,6 +30,7 @@
     "@zeppos/device-types": "^3.0.0"
   },
   "dependencies": {
-    "@zeppos/zml": "^0.0.38"
+    "@zeppos/zml": "^0.0.38",
+    "prettier": "^3.9.6"
   }
 }
