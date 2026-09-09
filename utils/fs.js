@@ -1,30 +1,32 @@
 import { statSync, writeFileSync as writeFile, readFileSync as readFile } from '@zos/fs'
-
 import { REMINDERS_FILE_NAME } from './constants'
 
-const fStat = statSync({
-  path: this.fileName
-})
-if (fStat) {
-  const resData = readFile({
-    path: REMINDERS_FILE_NAME,
-    options: {
-      encoding: 'utf8'
+export function readFileSync() {
+  try {
+    const fStat = statSync({ path: REMINDERS_FILE_NAME })
+    if (!fStat) {
+      return []
     }
-  })
-  return !resData ? [] : JSON.parse(resData)
-} else {
-  return []
+    const resData = readFile({
+      path: REMINDERS_FILE_NAME,
+      options: {
+        encoding: 'utf8'
+      }
+    })
+    if (!resData) {
+      return []
+    }
+    const parsed = JSON.parse(resData)
+    return Array.isArray(parsed) ? parsed : []
+  } catch (e) {
+    return []
+  }
 }
 
-export function writeFileSync(data, merge = true) {
-  let params = data
-  if (merge) {
-    params = [...readFile(), ...data]
-  }
+export function writeFileSync(data) {
   writeFile({
     path: REMINDERS_FILE_NAME,
-    data: JSON.stringify(params),
+    data: JSON.stringify(data || []),
     options: {
       encoding: 'utf8'
     }

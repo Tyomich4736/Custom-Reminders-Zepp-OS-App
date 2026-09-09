@@ -1,12 +1,30 @@
 {
-  "name": "todolist",
+  "name": "custom-reminders",
   "version": "1.0.0",
-  "description": "",
+  "description": "Custom repetitive reminders for Amazfit watches on Zepp OS — create, schedule, and receive notifications without a phone.",
+  "keywords": [
+    "zepp-os",
+    "amazfit",
+    "watch-app",
+    "reminders",
+    "notifications",
+    "wearable"
+  ],
+  "homepage": "https://github.com/<your-username>/custom-reminders#readme",
+  "bugs": {
+    "url": "https://github.com/<your-username>/custom-reminders/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<your-username>/custom-reminders.git"
+  },
   "main": "app.js",
   "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Custom Reminders Contributors",
   "license": "ISC",
   "devDependencies": {
     "@zeppos/device-types": "^3.0.0"

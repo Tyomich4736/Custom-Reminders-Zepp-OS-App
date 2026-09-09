@@ -7,15 +7,15 @@
       "name": "1.0.0"
     },
     "appId": 20926,
-    "appName": "Todo List",
+    "appName": "Custom Reminders",
     "icon": "icon.png",
     "vender": "zepp",
-    "description": "todo list application"
+    "description": "Create custom repetitive reminders with schedule"
   },
   "runtime": {
     "apiVersion": {
       "compatible": "4.0",
-      "target": "4.0",
+      "target": "4.2",
       "minVersion": "4.0"
     }
   },
@@ -23,31 +23,41 @@
     "gt": {
       "module": {
         "page": {
-          "pages": ["page/home/index.page"]
+          "pages": ["page/home/index.page", "page/edit/index.page"]
         },
-        "app-side": {
-          "path": "app-side/index"
-        },
-        "setting": {
-          "path": "setting/index"
+        "app-service": {
+          "services": ["app-service/reminder"]
         }
       },
       "platforms": [
         {
+          "deviceSource": 9568512,
           "st": "r",
           "dw": 480
         },
         {
-          "st": "s",
-          "dw": 390
+          "deviceSource": 9568513,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 9568515,
+          "st": "r",
+          "dw": 480
         }
-      ]
+      ],
+      "designWidth": 480
     }
   },
-  "permissions": ["data:os.device.info", "device:os.local_storage"],
+  "permissions": [
+    "data:os.device.info",
+    "device:os.local_storage",
+    "device:os.alarm",
+    "device:os.notification"
+  ],
   "i18n": {
     "en-US": {
-      "name": "Todo List"
+      "name": "Custom Reminders"
     }
   },
   "defaultLanguage": "en-US",

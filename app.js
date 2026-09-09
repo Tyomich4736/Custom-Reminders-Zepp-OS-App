@@ -1,17 +1,13 @@
-import { BaseApp } from '@zeppos/zml/base-app'
 import { log as Logger } from '@zos/utils'
 
-const logger = Logger.getLogger('todo-list-app')
+const logger = Logger.getLogger('custom-reminders-app')
 
-App(
-  BaseApp({
-    globalData: {},
-    onCreate() {
-      logger.log('app onCreate invoked')
-    },
-
-    onDestroy() {
-      logger.log('app onDestroy invoked')
-    }
-  })
-)
+App({
+  globalData: {},
+  onCreate() {
+    logger.log('app onCreate invoked')
+  },
+  onDestroy() {
+    logger.log('app onDestroy invoked')
+  }
+})

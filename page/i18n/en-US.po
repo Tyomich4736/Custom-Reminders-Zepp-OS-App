@@ -1,21 +1,56 @@
-
-msgid "todoList"
-msgstr "todo List"
+msgid "appTitle"
+msgstr "Reminders"
 
 msgid "noData"
-msgstr "No data, please add it on the phone"
+msgstr "No reminders yet.\nTap + to create one."
 
-msgid "add"
-msgstr "Add"
+msgid "newReminder"
+msgstr "New Reminder"
+
+msgid "editReminder"
+msgstr "Edit Reminder"
+
+msgid "title"
+msgstr "Title"
+
+msgid "description"
+msgstr "Description"
+
+msgid "time"
+msgstr "Time"
+
+msgid "hour"
+msgstr "Hour"
+
+msgid "minute"
+msgstr "Minute"
+
+msgid "days"
+msgstr "Days"
+
+msgid "tapToEdit"
+msgstr "Tap to edit"
+
+msgid "done"
+msgstr "Done"
+
+msgid "save"
+msgstr "Save"
+
+msgid "delete"
+msgstr "Delete"
+
+msgid "saveSuccess"
+msgstr "Saved"
 
 msgid "deleteSuccess"
-msgstr "successfully deleted"
+msgstr "Deleted"
 
-msgid "deleteFailure"
-msgstr "Delete failed, check the network"
+msgid "textRequired"
+msgstr "Add a title"
 
-msgid "addSuccess"
-msgstr "Added successfully"
+msgid "daysRequired"
+msgstr "Select at least one day"
 
-msgid "addFailure"
-msgstr "Failed to add, check the network"
+msgid "alarmFailure"
+msgstr "Could not set alarm"
