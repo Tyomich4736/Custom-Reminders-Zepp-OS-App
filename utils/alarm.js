@@ -1,14 +1,14 @@
 import {
-  set,
-  cancel,
   REPEAT_WEEK,
+  WEEK_FRI,
   WEEK_MON,
+  WEEK_SAT,
+  WEEK_SUN,
+  WEEK_THU,
   WEEK_TUE,
   WEEK_WED,
-  WEEK_THU,
-  WEEK_FRI,
-  WEEK_SAT,
-  WEEK_SUN
+  cancel,
+  set
 } from '@zos/alarm'
 import { Time } from '@zos/sensor'
 import { log as Logger } from '@zos/utils'

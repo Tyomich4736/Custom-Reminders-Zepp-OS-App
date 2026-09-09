@@ -4,17 +4,17 @@ import { log as Logger } from '@zos/utils'
 import { push } from '@zos/router'
 
 import {
-  TITLE_TEXT_STYLE,
-  TIPS_TEXT_STYLE,
+  ADD_BUTTON,
   SCROLL_LIST,
-  ADD_BUTTON
+  TIPS_TEXT_STYLE,
+  TITLE_TEXT_STYLE
 } from './index.page.r.layout'
 import { getScrollListDataConfig } from './../../utils/index'
 import {
-  loadReminders,
   deleteReminder,
   formatListTitle,
-  formatSchedule
+  formatSchedule,
+  loadReminders
 } from './../../utils/reminders'
 import { cancelReminderAlarm } from './../../utils/alarm'
 

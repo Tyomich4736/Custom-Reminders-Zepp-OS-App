@@ -1,10 +1,8 @@
-import { log as Logger } from '@zos/utils'
 import { notify } from '@zos/notification'
+import { log as Logger } from '@zos/utils'
+
 import { parseQuery } from '../utils/index'
-import {
-  getReminderById,
-  formatNotificationTitle
-} from '../utils/reminders'
+import { formatNotificationTitle, getReminderById } from '../utils/reminders'
 
 const logger = Logger.getLogger('reminder-service')
 

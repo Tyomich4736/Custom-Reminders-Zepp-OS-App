@@ -1,33 +1,38 @@
+import {
+  createKeyboard,
+  deleteKeyboard,
+  inputType
+} from '@zos/ui'
 import * as hmUI from '@zos/ui'
 import { getText } from '@zos/i18n'
 import { log as Logger, px } from '@zos/utils'
-import { createKeyboard, inputType, deleteKeyboard } from '@zos/ui'
 import { back } from '@zos/router'
-import { setScrollMode, setScrollLock, scrollTo, SCROLL_MODE_FREE } from '@zos/page'
+import { SCROLL_MODE_FREE, scrollTo, setScrollLock, setScrollMode } from '@zos/page'
+
 import {
-  PAGE_TITLE,
-  LABEL_STYLE,
-  VALUE_BUTTON,
-  WEEKDAY_BTN,
-  SAVE_BUTTON,
   DELETE_BUTTON,
-  ROW_Y,
-  PAGE_BOTTOM,
+  DEVICE_HEIGHT,
   DEVICE_WIDTH,
-  DEVICE_HEIGHT
+  LABEL_STYLE,
+  PAGE_BOTTOM,
+  PAGE_TITLE,
+  ROW_Y,
+  SAVE_BUTTON,
+  VALUE_BUTTON,
+  WEEKDAY_BTN
 } from './index.page.r.layout'
 import { WEEKDAY_LABELS } from './../../utils/constants'
 import { parseQuery } from './../../utils/index'
 import {
   createReminder,
-  getReminderById,
-  upsertReminder,
   deleteReminder,
   formatTime,
+  getReminderById,
+  isWeekDaySelected,
   toggleWeekDay,
-  isWeekDaySelected
+  upsertReminder
 } from './../../utils/reminders'
-import { scheduleReminderAlarm, cancelReminderAlarm } from './../../utils/alarm'
+import { cancelReminderAlarm, scheduleReminderAlarm } from './../../utils/alarm'
 
 const logger = Logger.getLogger('reminders-edit')
 

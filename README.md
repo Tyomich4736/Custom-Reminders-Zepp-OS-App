@@ -4,12 +4,27 @@
   <img src="assets/gt/icon.png" alt="Custom Reminders icon" width="120" height="120" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/Tyomich4736/Custom-Reminders-Zepp-OS-App/stargazers"><img src="https://img.shields.io/github/stars/Tyomich4736/Custom-Reminders-Zepp-OS-App?style=social" alt="GitHub Stars"></a>
-  <a href="https://github.com/Tyomich4736/Custom-Reminders-Zepp-OS-App/issues"><img src="https://img.shields.io/github/issues/Tyomich4736/Custom-Reminders-Zepp-OS-App" alt="Issues"></a>
-  <a href="https://github.com/Tyomich4736/Custom-Reminders-Zepp-OS-App/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-ISC-blue.svg" alt="License: ISC"></a>
-  <a href="https://github.com/Tyomich4736/Custom-Reminders-Zepp-OS-App/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Tyomich4736/Custom-Reminders-Zepp-OS-App/ci.yml?branch=main" alt="CI"></a>
-</p>
+	<p align="center">
+	  <a href="https://github.com/Tyomich4736/Custom-Reminders-Zepp-OS-App/stargazers"
+	    ><img
+	      src="https://img.shields.io/github/stars/Tyomich4736/Custom-Reminders-Zepp-OS-App?style=social"
+	      alt="GitHub Stars"
+	  /></a>
+	  <a href="https://github.com/Tyomich4736/Custom-Reminders-Zepp-OS-App/issues"
+	    ><img
+	      src="https://img.shields.io/github/issues/Tyomich4736/Custom-Reminders-Zepp-OS-App"
+	      alt="Issues"
+	  /></a>
+	  <a href="https://github.com/Tyomich4736/Custom-Reminders-Zepp-OS-App/blob/main/LICENSE"
+	    ><img src="https://img.shields.io/badge/license-ISC-blue.svg" alt="License: ISC"
+	  /></a>
+	  <a
+	    href="https://github.com/Tyomich4736/Custom-Reminders-Zepp-OS-App/actions/workflows/ci.yml"
+	    ><img
+	      src="https://img.shields.io/github/actions/workflow/status/Tyomich4736/Custom-Reminders-Zepp-OS-App/ci.yml?branch=main"
+	      alt="CI"
+	  /></a>
+	</p>
 
 A Zepp OS watch app for creating repeating reminders with a title, description, weekday schedule, and time. Reminders are stored on the device and delivered through system notifications when an alarm fires.
 
