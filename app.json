@@ -44,6 +44,81 @@
           "deviceSource": 9568515,
           "st": "r",
           "dw": 480
+        },
+        {
+          "deviceSource": 10944768,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 10944769,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 10944771,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 10948867,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 9832592,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 9832593,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 10224064,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 10224065,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 9899136,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 9899137,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 11534592,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 11534593,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 11534595,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 11599872,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 11599873,
+          "st": "r",
+          "dw": 480
         }
       ],
       "designWidth": 480
