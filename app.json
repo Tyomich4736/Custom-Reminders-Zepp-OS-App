@@ -96,27 +96,32 @@
           "dw": 480
         },
         {
-          "deviceSource": 11534592,
+          "deviceSource": 10682624,
           "st": "r",
           "dw": 480
         },
         {
-          "deviceSource": 11534593,
+          "deviceSource": 10682625,
           "st": "r",
           "dw": 480
         },
         {
-          "deviceSource": 11534595,
+          "deviceSource": 10682627,
           "st": "r",
           "dw": 480
         },
         {
-          "deviceSource": 11599872,
+          "deviceSource": 10551552,
           "st": "r",
           "dw": 480
         },
         {
-          "deviceSource": 11599873,
+          "deviceSource": 10551553,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 10551555,
           "st": "r",
           "dw": 480
         }
