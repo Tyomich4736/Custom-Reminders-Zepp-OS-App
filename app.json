@@ -124,6 +124,21 @@
           "deviceSource": 10551555,
           "st": "r",
           "dw": 480
+        },
+        {
+          "deviceSource": 10879232,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 10879233,
+          "st": "r",
+          "dw": 480
+        },
+        {
+          "deviceSource": 10879235,
+          "st": "r",
+          "dw": 480
         }
       ],
       "designWidth": 480
