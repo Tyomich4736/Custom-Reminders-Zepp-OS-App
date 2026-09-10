@@ -72,7 +72,7 @@ Configured target in `app.json`:
 | Amazfit GTR Mini                | Round, 480×480 | Zepp OS 4.0–5.0 |
 | Amazfit Active 3 / 3 Premium    | Round, 480×480 | Zepp OS 4.0–5.0 |
 | Amazfit T-Rex 3                 | Round, 480×480 | Zepp OS 4.0–5.0 |
-| Amazfit T-Rex Ultra 2          | Round, 480×480 | Zepp OS 4.0–5.0 |
+| Amazfit T-Rex Ultra 2           | Round, 480×480 | Zepp OS 4.0–5.0 |
 | Amazfit T-Rex 3 Pro (44mm/48mm) | Round, 480×480 | Zepp OS 4.0–5.0 |
 | Amazfit Balance 3               | Round, 480×480 | Zepp OS 4.0–5.0 |
 
